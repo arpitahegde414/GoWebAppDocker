@@ -8,9 +8,9 @@ The binaries are created for the file in windows using below commands:
 
 env GOOS=target-OS GOARCH=target-architecture go build package-import-path
 
-for example here we are using an ubuntu image in the docker file, hence executed below command:
+for example here we are using an ubuntu image in the docker file, hence executed below command in windows command prompt:
 
-env GOOS=linux GOARCH=amd64 go build 
+set env GOOS=linux GOARCH=amd64
 
 2.Run go build to create binaries
 
