@@ -15,3 +15,6 @@ set env GOOS=linux GOARCH=amd64
 2.Run go build to create binaries
 
 go build .
+
+
+Once the binaries are created, you can build the docker file, create image and run the container
