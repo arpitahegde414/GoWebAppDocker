@@ -1,6 +1,7 @@
 # GoWebAppDocker
 
-This is a sample Go Web application. I have used it to run in docker container.
+This is a sample Go Web application. I have used it to run in linux docker container.
+
 The binaries are created for the file in windows using below commands:
 
 1.Set the target OS first.You can refer the blog - https://www.digitalocean.com/community/tutorials/how-to-build-go-executables-for-multiple-platforms-on-ubuntu-16-04
