@@ -1,1 +1,15 @@
 # GoWebAppDocker
+
+This is a sample Go Web application. 
+The binaries are created for the file in windows using below commands:
+
+1.Set the target OS first.You can refer the blog - https://www.digitalocean.com/community/tutorials/how-to-build-go-executables-for-multiple-platforms-on-ubuntu-16-04
+
+env GOOS=target-OS GOARCH=target-architecture go build package-import-path
+
+for example here we are using an ubuntu image in the docker file, hence executed below command:
+env GOOS=linux GOARCH=amd64 go build 
+
+2.Run go build to create binaries
+
+go build .
